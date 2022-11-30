@@ -1,12 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#one, #two {
+    display: inline-block;
+}
+
+#one {
+    padding-left: 5rem;
+}
+
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+h1 , h3 {
+   margin-left: 3.1rem;
 }
 
 li {
     list-style: none;
+    border-style: solid;
+    border-width: 0.1rem;
+    margin:0.6rem;
+    padding-left: 1rem;
+    padding-right: 60rem;
 }
 
-#one {
-    justify-content: center;
+#two {
+   background: white;
+   margin-top:-5px;
+   padding: 8rem;
+}
+
+button {
+    background-color: white;
+    border-style: solid;
+    padding: 0.5rem;
+    border-width: 0.01rem;
+    border-radius: 12%;
 }
